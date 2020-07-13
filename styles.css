@@ -1,0 +1,165 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-self: center;
+
+    position: relative;
+    width: 414px;
+    height: 435px;
+
+    background: #ffffff;
+}
+.div {
+    position: static;
+    width: 414px;
+    height: 435px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0px 10px;
+}
+.img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 47.13%;
+
+    background: url();
+    border-radius: 7px;
+}
+.text {
+    position: absolute;
+    left: 4.83%;
+    right: 4.83%;
+    top: 58.62%;
+    bottom: 30.8%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2B2D36;
+}
+.img2 {
+    position: absolute;
+    left: 4.83%;
+    right: 4.83%;
+    top: 72.64%;
+    bottom: 15.17%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #2B2D36;
+}
+.date {
+    position: absolute;
+    left: 4.83%;
+    right: 61.35%;
+    top: 91.72%;
+    bottom: 4.6%;
+}
+.September {
+    position: absolute;
+    height: 16px;
+    left: 17.86%;
+    right: 7.86%;
+    top: calc(50%-16px/2);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #dfdfdf;    
+}
+.clock-icon {
+    position: absolute;
+    left: 0%;
+    right: 89.29%;
+    top: 6.25%;
+    bottom: 0%;
+
+   /* background: #dfdfdf;*/
+    border: 0.8px solid #dfdfdf;
+}
+.hand {
+    position: absolute;
+    left: 4.87%;
+    right: 92.7%;
+    top: 23.3%;
+    bottom: 29.86%;
+
+    background: #dadada;
+}
+.square {
+    position: absolute;
+    left: 0.97%;
+    right: 90.26%;
+    top: 14.77%;
+    bottom: 8.52%;
+
+    background: #dadada;
+}
+.path {
+    position: absolute;
+    left: 0%;
+    right: 89.29%;
+    top: 6.25%;
+    bottom: 0%;
+
+    background: #dadada;
+}
+.read {
+    position: absolute;
+    height: 16px;
+    left: 61.35%;
+    right: 8.7%;
+    top: calc(50% - 16px/2 + 189.5px);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    
+    color: #68d6f4;
+}
+.arrow {
+    position: absolute;
+    width: 4.07px;
+    height: 8px;
+    left: 393.04px;
+    top: 403.81px;
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.arrow-up {
+    position: absolute;
+    left: 94.94%;
+    right: 3.13%;
+    top: 94.67%;
+    bottom: 4.39%;
+
+   /* background: #68d6f4;*/
+    border: 1.5px solid #68d6f4;
+    transform: matrix(1, -1, -1, 1, 0, 0);
+}
